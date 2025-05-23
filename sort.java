@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class BubbleSortNameList {
     public static void main(String[] args) {
         // Array of names
@@ -15,10 +17,7 @@ public class BubbleSortNameList {
             }
         }
 
-        // Display sorted names
-        System.out.println("Sorted names:");
-        for (String name : names) {
-            System.out.println(name);
-        }
+        // Display sorted names using Arrays.toString()
+        System.out.println("Sorted names: " + Arrays.toString(names));
     }
 }
